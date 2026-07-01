@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    background: #0b0c1e;
+    color: #f0f0f5;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#launch-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(280px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.launch-card {
+    background: #16182f;
+    border: 1px solid #2a2d54;
+    border-radius: 12px;
+    padding: 1.25rem;
+}
+
+.launch-card h2{
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.agency, .date, .location {
+    font-size: 0.9rem;
+    color: #b0b3d6;
+    margin-bottom: 0.25rem;
+}
+
+.countdown {
+    margin-top: 0.75rem;
+    font-weight: bold;
+    color: #7dd3fc;
+}
